@@ -25,4 +25,17 @@ where PERSON is not allowed to have STOCKING.  For example:
 
 Would prevent Me from getting Dad, Dad from getting Mom, etc.
 
+To use the above restriction string, sending an email, and using a different input file
+than the default, run:
+
+    python christmas.py -e --input '../../people.json' --restrict 'Me,Dad;Dad,Mom;Brother,Sister;Sister,Me;Mom,Brother'
+
+Note that the included `email_config.json` and `people.json` files need to be updated to include
+correct information for the people in your list.  `email_config.json` should be the address
+and password for your gmail account, which must be configured to allow 'less secure apps'
+access it.  I would set up a dedicated account for this purpose.  The destination emails
+for each person do not necessarily need to be gmail.  You can add as many people to the list as long
+as there are more than 2, each with a `name` and `email` property.
+
+
 
