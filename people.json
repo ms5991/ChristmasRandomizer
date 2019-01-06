@@ -1,0 +1,22 @@
+{
+	"names" : [{
+		"name" : "Mom",
+		"email" : "MOM_EMAIL_HERE@gmail.com"
+	},
+	{
+		"name" : "Dad",
+		"email" : "DAD_EMAIL_HERE@gmail.com"
+	},
+	{
+		"name" : "Brother",
+		"email" : "BROTHER_EMAIL_HERE@gmail.com"
+	},
+	{
+		"name" : "Me",
+		"email" : "YOUR_EMAIL_HERE@gmail.com"
+	},
+	{
+		"name" : "Sister",
+		"email" : "SISTER_EMAIL_HERE@gmail.com"
+	}]	
+}
